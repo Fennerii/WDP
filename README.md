@@ -18,6 +18,6 @@ employees -> apply for jobs, look at listings
 like fivver or another free lancing option
 connecting jobs to people
 
-![Jonathan Fenner WDP](images/JonathanFennerWDP.png)
+![Jonathan Fenner WDP](images/Blank diagram.png)
 
 
