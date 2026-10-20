@@ -20,6 +20,15 @@ connecting jobs to people
 
 ![Jonathan Fenner WDP](images/UpdatedWDPFenner.png)
 
+# Relations
+User can post zero or many jobs
+Jobs can belong to one user and only one user
 
+One and only one user can can send zero or many applications 
+A job can receive zero or many applications
+one and only one application per job
+
+a job is categorized by one and only one category
+a category can have zero or many jobs in a specific category
 
 
