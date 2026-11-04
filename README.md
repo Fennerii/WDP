@@ -31,4 +31,20 @@ one and only one application per job
 a job is categorized by one and only one category
 a category can have zero or many jobs in a specific category
 
+# Database Implementation
 
+**Database system:** MySQL
+
+**Tables implemented:** `User`, `Job`, and `Category`
+
+**How the tables are related:** `User` stores the people who register and log in. `Job` stores the jobs they post. This is a one-to-many relationship: a user can post zero or many jobs, and each job belongs to exactly one user through the `UserID` foreign key. `Category` is an additional table with the same kind of relationship: a category can have zero or many jobs, and each job has exactly one category through the `CategoryID` foreign key.
+
+**Schema:** [schema.sql](schema.sql)
+
+## Screenshots
+
+### Table Creation and Created Tables
+![Successful table creation and SHOW TABLES output](screenshots/Screenshot%20from%202026-11-03%2023-59-29.png)
+
+### Table Structure
+![DESCRIBE output for the User, Category, and Job tables](screenshots/Screenshot%20from%202026-11-04%2000-02-42.png)
