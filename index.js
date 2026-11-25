@@ -20,3 +20,5 @@ app.get('/{*splat}', function (req, res) { //I looked and express 5 needs "splat
 });
 
 const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => console.log(`Server started on port ${PORT}!`));
