@@ -39,7 +39,7 @@ a category can have zero or many jobs in a specific category
 
 **How the tables are related:** `User` stores the people who register and log in. `Job` stores the jobs they post. This is a one-to-many relationship: a user can post zero or many jobs, and each job belongs to exactly one user through the `UserID` foreign key. `Category` is an additional table with the same kind of relationship: a category can have zero or many jobs, and each job has exactly one category through the `CategoryID` foreign key.
 
-**Schema:** [schema.sql](server/schema.sql)
+**Schema:** [schema.sql](server/schema.sql) 
 
 ## Screenshots
 
