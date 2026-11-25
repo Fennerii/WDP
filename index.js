@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 
 app.use("/users", userRoutes);
 
-app.get('/{splat}', function (req, res) { //I looked and express 5 needs "splat compared to * used in express4"
+app.get('/{*splat}', function (req, res) { //I looked and express 5 needs "splat compared to * used in express4"
   res.sendFile(path.resolve(__dirname, 'public', 'login.html'));
 });
 

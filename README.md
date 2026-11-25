@@ -18,7 +18,7 @@ employees -> apply for jobs, look at listings
 like fivver or another free lancing option
 connecting jobs to people
 
-![Jonathan Fenner WDP]((public/images/UpdatedWDPFenner.png)
+![Jonathan Fenner WDP](public/images/UpdatedWDPFenner.png)
 
 # Relations
 User can post zero or many jobs
